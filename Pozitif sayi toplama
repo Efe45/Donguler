@@ -10,11 +10,11 @@ int main(void) {
   
   printf("Sayı");
   scanf("%d", &sayi);
-    if (sayi > 0)
+    if (sayi <= 0)
     {
-      toplam += sayi;
+      break;
     }
-
+    toplam += sayi;
 
   }
   printf("toplam: %d ",toplam);
