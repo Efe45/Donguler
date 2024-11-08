@@ -1,0 +1,19 @@
+#include <stdio.h>
+
+int main(void) {
+
+  int sayi;
+  int sonuc = 1;
+
+  printf("Sayı");
+  scanf("%d", &sayi);
+  
+  while(sayi > 1)
+  {
+  
+  sonuc *= sayi;
+  sayi --;
+  }
+  printf("%d",sonuc);
+
+}
